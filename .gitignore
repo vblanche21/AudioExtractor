@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+build/
+dist/
+RELEASE/
+*.spec
+ffmpeg/
+bin/
+AudioExtractor_Windows_Portable.zip
