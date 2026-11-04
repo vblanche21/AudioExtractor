@@ -1,0 +1,31 @@
+THIRD-PARTY SOFTWARE: FFMPEG / FFPROBE
+=====================================
+
+Audio Extractor invokes ffmpeg and ffprobe as separate subprocesses. The
+Windows binary distribution used by BUILD_WINDOWS.bat is 'FFmpeg release
+essentials', distributed by Gyan Doshi (https://www.gyan.dev/ffmpeg/builds/).
+At the time this kit was prepared, the distribution provider stated its
+Windows static builds are licensed under GNU GPL version 3 (GPLv3).
+
+FFmpeg project: https://ffmpeg.org/
+License information: https://ffmpeg.org/legal.html
+GPLv3 license: https://www.gnu.org/licenses/gpl-3.0.html
+FFmpeg source repository: https://github.com/FFmpeg/FFmpeg
+Build provider and associated version/source references:
+https://www.gyan.dev/ffmpeg/builds/
+
+IMPORTANT FOR REDISTRIBUTORS:
+If you distribute the executable including bundled GPL-licensed FFmpeg
+binaries, you are responsible for satisfying the GPLv3 redistribution
+conditions, including offering the complete corresponding source code for
+the exact binary build (and relevant notices / license terms). Merely
+providing this URL or this notice is not necessarily sufficient.
+
+Audio Extractor's user interface is supplied as Python source code in
+this kit and the generated shareable ZIP.
+
+PyInstaller: https://pyinstaller.org/
+PyInstaller licensing: https://pyinstaller.org/en/stable/license.html
+
+This document is informational and does not replace the applicable
+software licenses.
